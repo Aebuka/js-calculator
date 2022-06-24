@@ -17,6 +17,6 @@ if (userInput == 1) {
     var secondInput = parseInt(prompt('Second Number:'))
     document.write('For ', firstinput, ' / ', secondInput, '<br/>',' Your answer is ', + firstinput / secondInput);
 } else {
-    alert('Your selection is not valid. \n\n hit F5 to restart')
+    alert('Your selection is not valid. \n\n Refresh page to run the calculator again.')
 }
 
